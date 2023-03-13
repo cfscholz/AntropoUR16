@@ -17,7 +17,7 @@ Adafruit_DotStar strip(NUM_LEDS, DATAPIN, CLOCKPIN, DOTSTAR_BRG);
  uint32_t red = strip.Color(0, 255, 0);
  uint32_t none = strip.Color(0, 0, 0);
  uint32_t orange = strip.Color(255, 128, 0);
-uint32_t purple = strip.Color(0, 148, 211);
+ uint32_t purple = strip.Color(0, 148, 211);
 
 
 int state = 0; // initial state is 0 (default state)
